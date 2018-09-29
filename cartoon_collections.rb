@@ -18,7 +18,6 @@ def long_planeteer_calls(callz)# code an argument here
   callz.map do |call|
     if call.size > 4
       return true
-    end
     else
       return false
     end
