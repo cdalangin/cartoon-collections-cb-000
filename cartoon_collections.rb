@@ -17,9 +17,9 @@ def long_planeteer_calls(callz)# code an argument here
   # Your code here
   callz.collect do |call|
     if call.length < 4
-      return false
+      return "false"
     elsif call.length > 4
-      return true
+      return "true"
     end
   end
 end
