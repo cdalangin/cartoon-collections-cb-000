@@ -27,7 +27,7 @@ end
 def find_the_cheese(cheedz)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-    if cheedz.include(cheese_types)
+    if cheedz.include?(cheese_types)
       cheedz.collect do |types|
         puts "#{types}"
       end
