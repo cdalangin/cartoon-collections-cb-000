@@ -31,7 +31,7 @@ def find_the_cheese(cheedz)# code an argument here
       if cheedz.include?(types)
         return types
       else
-        nil
+        return nil
     end
   end
 end
