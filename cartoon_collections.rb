@@ -3,7 +3,10 @@ def roll_call_dwarves(dwarves)# code an argument here
     # Your code here
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(elemelens)# code an argument here
+  elemelens.collect do |elements|
+    puts elements.capitalize + "!"
+  end
   # Your code here
 end
 
